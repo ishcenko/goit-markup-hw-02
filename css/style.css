@@ -8,9 +8,10 @@ body {
 a {
     text-decoration: none;
 }
-li {
+ul {
     list-style: none;
 }
+/* header */
 .logo-web {
     font-family: 'Raleway';
     font-weight: 800;
@@ -43,4 +44,61 @@ li {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+/* main */
+.btn-portfolio {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4D5AE5;
+    cursor: pointer;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+}
+.item {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2E2F42;
+}
+.text-item {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+
+}
+.btn-portfolio:hover {
+    color: #FFFFFF;
+    background: #4D5AE5;
+    border-radius: 4px;
+}
+.btn-portfolio:focus {
+    color: #FFFFFF;
+    background: #4D5AE5;
+    border-radius: 4px;
+}
+/* footer */
+.footer {
+    background: #2E2F42;
+}
+.footer-web {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+.footer-studio {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    text-transform: uppercase;
+    color: #F4F4FD;
+}
+.footer-txt {
+    font-size: 16px;
+    line-height: 24px;
+    color: #E7E9FC;
 }
